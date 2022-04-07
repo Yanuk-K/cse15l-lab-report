@@ -32,6 +32,8 @@ command - what they do
 
 * Optimizing Remote Running
 
-We can use `;` between commands and `"command; command"` to have the command run remotely
+>Hint: We can use `;` between commands and `"command; command"` to have the command run remotely
 
 ![screenshot of my optimization]()
+
+For example, I reduced `some command` and `some command` to a single line of command `some command` using this. Considering I have the command pre-run beforehand, I can reduce the total keystroke to complete these actions into two keystrokes.
