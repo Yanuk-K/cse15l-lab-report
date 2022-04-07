@@ -12,7 +12,7 @@ Your VSCode's theme and buttons may differ by your computer's operating system o
 
 >Extra steps for Windows users: [Install OpenSSH via this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
-Open terminal on VSCode by clicking Terminal -> new Terminal from the menu, and remotely connect to your remote student server using the command `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, where `zz` is replaced with your student account.
+Open terminal on VSCode by clicking Terminal -> new Terminal from the menu, and remotely connect to your remote student server using the command `ssh cs15lsp22zz@ieng6.ucsd.edu`, where `zz` is replaced with your student account.
 
 When connecting to the server for the first time, there may be a message like this:
 
@@ -44,7 +44,7 @@ command - what they do
 
 4. Moving Files with scp
 
-`command` move using this command
+`scp "filename" cs15lsp22zz@ieng6.ucsd.edu:~/` move files to the server using this command.
 
 ![Screenshot of scp file moving]()
 
