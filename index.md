@@ -1,4 +1,4 @@
-#CSE15L Week 2 Lab Report
+# CSE15L Week 2 Lab Report
 
 1. Installing VScode
 
