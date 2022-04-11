@@ -4,7 +4,7 @@
 
 Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and install Visual Studio Code for your operating system. After installing, VSCode will look something like this:
 
-![VSCode Website]()
+![VSCode](./vscode.png)
 
 Your VSCode's theme and buttons may differ by your computer's operating system or environment.
 
@@ -29,18 +29,26 @@ After that, you will be prompted to type your password. Enter your password and 
 
 A successful connection would look something like this:
 
-![Screenshot of connecting via ssh]()
+![Screenshot of connecting via ssh](./connected.png)
 
 
 3. Trying Some Commands
 
-![Screenshot of commands]()
+Here is a list of commands to try out while connected to the server:
+```
+ls
+cd
+mkdir
+cat
+pwd
+```
 
-Here is a list of commands and what they do:
-```
-command - what they do
-command - what they do
-```
+try them out and see what happens!
+
+
+Here is a screenshot of ls-lat while connected on the server:
+
+![Screenshot of commands](./ls-lat.png)
 
 4. Moving Files with scp
 
@@ -50,12 +58,16 @@ command - what they do
 
 5. Setting an SSH Key
 
-![SSH key setup screenshot]()
+After setting up the SSH key, it will look something like this:
+
+![SSH key screenshot](./login.png)
 
 6. Optimizing Remote Running
 
->Hint: We can use `;` between commands and `"command; command"` to have the command run remotely
+>Hint: We can use `;` between commands to make them run on a single line and `"command; command"` group commands together.
 
-![screenshot of my optimization]()
+![screenshot of my optimization](./last.png)
 
-For example, I reduced `some command` and `some command` to a single line of command `some command` using this. Considering I have the command pre-run beforehand, I can reduce the total keystroke to complete these actions into two keystrokes.
+For example, I reduced `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`, `ssh cs15lsp22zz@ieng6.ucsd.edu:`, `javac WhereAmI.java`, and `java WhereAmI` to a single line of command `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/; ssh cs15lsp22zz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"` using this.
+
+Considering I have the command pre-run beforehand, I can reduce the total keystroke to complete these actions into two keystrokes.
