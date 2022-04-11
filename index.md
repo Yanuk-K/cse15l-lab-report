@@ -54,7 +54,7 @@ Here is a screenshot of ls-lat while connected on the server:
 
 `scp "filename" cs15lsp22zz@ieng6.ucsd.edu:~/` move files to the server using this command.
 
-![Screenshot of scp file moving]()
+![Screenshot of scp file moving](./scp.png)
 
 5. Setting an SSH Key
 
