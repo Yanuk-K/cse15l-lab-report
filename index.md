@@ -45,7 +45,6 @@ pwd
 
 try them out and see what happens!
 
-
 Here is a screenshot of ls-lat while connected on the server:
 
 ![Screenshot of commands](./ls-lat.png)
@@ -58,9 +57,19 @@ Here is a screenshot of ls-lat while connected on the server:
 
 5. Setting an SSH Key
 
+To make login easier, we can add a SSH Key.
+
+On the client side, run `ssh-keygen` to create a key pair. **Make sure to not create a passphrase**
+
+Now, SSH into your server again and `mkdir .ssh` to create a .ssh directory.
+
+Logout after creating the .ssh directory, and move the public key(`id_rsa.pub` inside the `.ssh` directory) by using the command`scp /Users/"user"/.ssh/id_rsa.pub`
+
 After setting up the SSH key, it will look something like this:
 
 ![SSH key screenshot](./login.png)
+
+and now you don't need to enter your password to ssh or scp!
 
 6. Optimizing Remote Running
 
