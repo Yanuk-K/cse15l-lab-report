@@ -1,6 +1,6 @@
 # CSE15L Week 2 Lab Report
 
-1\. Installing VScode
+## 1\. Installing VScode
   
 Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and install Visual Studio Code for your operating system. After installing, VSCode will look something like this:
 
@@ -8,7 +8,7 @@ Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and insta
 
 Your VSCode's theme and buttons may differ by your computer's operating system or environment.
 
-2\. Remotely Connecting
+## 2\. Remotely Connecting
   
 >Extra steps for Windows users: [Install OpenSSH via this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
@@ -31,7 +31,7 @@ A successful connection would look something like this:
 
 ![Screenshot of connecting via ssh](./connected.png)
 
-3\. Trying Some Commands
+## 3\. Trying Some Commands
   
 Here is a list of commands to try out while connected to the server:
 ```
@@ -48,13 +48,13 @@ Here is a screenshot of ls-lat while connected on the server:
 
 ![Screenshot of commands](./ls-lat.png)
 
-4\. Moving Files with scp
+## 4\. Moving Files with scp
   
 `scp "filename" cs15lsp22zz@ieng6.ucsd.edu:~/` move files to the server using this command.
 
 ![Screenshot of scp file moving](./scp.png)
 
-5\. Setting an SSH Key
+## 5\. Setting an SSH Key
   
 To make login easier, we can add a SSH Key.
 
@@ -70,7 +70,7 @@ After setting up the SSH key, it will look something like this:
 
 and now you don't need to enter your password to ssh or scp!
 
-6\. Optimizing Remote Running
+## 6\. Optimizing Remote Running
   
 >Hint: We can use `;` between commands to make them run on a single line and `"command; command"` group commands together.
 
