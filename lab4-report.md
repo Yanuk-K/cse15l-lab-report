@@ -3,12 +3,12 @@
 ## 1\. First Code Change
 
 ### Screenshot of the code difference:
-[!First Screenshot](./codediff1.png)
+![First Screenshot](./codediff1.png)
 
 [Link to Test File](https://github.com/Yanuk-K/markdown-parser/blob/main/newmd.md)
 
 Symptom of the failure-inducing input:
-[!Symptom](./Symptom1.png)
+![Symptom](./Symptom1.png)
 
 The bug was caused by the fact that `link3` did not have a closing bracket, causing the loop to go out of bounds.
 
