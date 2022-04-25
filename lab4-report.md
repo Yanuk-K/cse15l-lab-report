@@ -37,6 +37,6 @@ Screenshot of the code difference:
 [Link to Test File](https://github.com/Yanuk-K/markdown-parser/blob/main/newmd.md)
 
 Symptom of the failure-inducing input:
-![Symptom](./Symptom3png)
+![Symptom](./Symptom3.png)
 
 The bug was caused by incorrectly checking for images, as I mistook the format to include images to be `[!]()`, whereas the format for image in markdown is `![]()`. The failure-inducing input is `![link2](some-page.html)`, and before the edit, it included `some-page.html` in the Array due to my mistake in checking for images.
