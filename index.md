@@ -4,3 +4,4 @@
 
 [Week 4 Lab Report](./lab4-report)
 
+[Week 6 Lab Report](./lab-report-3-week-6)
