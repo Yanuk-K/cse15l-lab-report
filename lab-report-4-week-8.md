@@ -13,13 +13,13 @@
 `[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]`
 
 ## Test results of my implementation of markdown-parse:
-![My test run](my_test_run.png)
+![My test run](./my_test_run.png)
 
 ## Test result of markdown-parse from week 7:
-![other test run](other_test_run.png)
+![other test run](./other_test_run.png)
 
 ## Test implementation(they are the same for both versions of markdown-parse):
-![MarkdownParseTest.java tests](MDPT_code.png)
+![MarkdownParseTest.java tests](./MDPT_code.png)
 
 ## Questions:
 
