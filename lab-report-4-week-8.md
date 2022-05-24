@@ -29,8 +29,8 @@
 
 ### Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-- No, checking for nested links will require checking for any nested links inside links, and a correct implementation that covers all edge cases will be a long implementation with its own method.
+- No, checking for nested links will require checking for any nested links inside links using a separate method(>=10 lines). Also, checking for escaped brackets will require another method to do so(>=5 lines or so).
 
 ### Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-- No, checking for newline alone would take up at least 4 lines(simple method checking newline), and checking for edge cases will very easily make it go over 10 lines.
+- Yes, I think it could be done by writing a method that checks for all possible newline characters. Even though there is a lot of them, it will be possible to just check for newline using an array of newline characters and looping over them.
